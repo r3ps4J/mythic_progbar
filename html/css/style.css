@@ -67,7 +67,7 @@ body {
 
 .progress-bar {
     width: 0%;
-    background-color: rgba(0, 161, 255, 0.95);
+    background-color: rgba(0, 161, 255, 0.75);
     height: 100%;
     -webkit-animation: animate-stripes 3s linear infinite;
     transition: width 0.3s;

@@ -4,7 +4,7 @@ $('document').ready(function() {
     MythicProgBar.Progress = function(data) {
         $(".progress-container").css({"display":"block"});
         $("#progress-label").text(data.label);
-        $("#progress-bar").stop().css({"width": 0, "background-color": "rgba(0, 161, 255, 0.95)"}).animate({
+        $("#progress-bar").stop().css({"width": 0, "background-color": "rgba(0, 161, 255, 0.75)"}).animate({
           width: '100%'
         }, {
           duration: parseInt(data.duration),
@@ -21,7 +21,7 @@ $('document').ready(function() {
     MythicProgBar.ProgressCancel = function() {
         $(".progress-container").css({"display":"block"});
         $("#progress-label").text("CANCELLED");
-        $("#progress-bar").stop().css( {"width": "100%", "background-color": "rgba(255, 0, 0, 0.95)"});
+        $("#progress-bar").stop().css( {"width": "100%", "background-color": "rgba(255, 0, 0, 0.75)"});
 
         setTimeout(function () {
             $(".progress-container").css({"display":"none"});
