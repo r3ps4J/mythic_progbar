@@ -41,38 +41,34 @@ body {
 
 .progress-labels div {
     font-size: 16px;
+    line-height: 32px;
     position: relative;
     color: #ffffff;
     z-index: 10;
-    font-family: cursive;
+    font-weight: bold;
+    font-family: 'Roboto';
 }
 
 .progress-bar-container {
     width: 100%;
-    background-color: rgba(140, 140, 140, .9);
-    height: 28px;
+    height: 40px;
     margin-left: 2px;
     margin-right: 3px;
     margin-top: 5px;
     margin-bottom: 5px;
-    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
-    background-color: #1a1a1a;
-    border-radius: 6px;
-    padding: 5px;
+    background-color: rgba(0,0,0,0.25);
     text-align: left;
     overflow: hidden;
     position: relative;
     display: block;
     white-space: nowrap;
+    border: solid #fff 2px;
 }
 
 .progress-bar {
     width: 0%;
-    background-color: #ff5f00;
-    height: 20px;
-    border-radius: 3px;
-    background-size: 30px 30px;
-    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-color: rgba(0, 161, 255, 0.95);
+    height: 100%;
     -webkit-animation: animate-stripes 3s linear infinite;
     transition: width 0.3s;
     transition-timing-function: ease-out;
